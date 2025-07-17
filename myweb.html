@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>Caffeine House</title>
+
+    <style>
+        body,
+        html {
+            margin: 0;
+            height: 100%;
+        }
+
+        body {
+            font-family: 'Times New Roman', Times, serif;
+        }
+
+        .bgimg {
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-image: url(coffee.jpg);
+            min-height: 90%;
+        }
+
+        header {
+
+            background-size: cover;
+            background-image: url(coffee1.jpg);
+            min-height: 90%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        nav {
+            position: fixed;
+            width: 100%;
+            background: rgba(0, 0, 0, 0.8);
+            display: flex;
+            justify-content: center;
+            gap: 40px;
+            padding: 20px;
+        }
+
+        nav a:hover {
+            background-color: #575757;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-size: 20px;
+        }
+
+        section {
+            padding: 50px;
+            max-width: 800px;
+            margin: auto;
+        }
+
+        /* sub class in menu*/
+        .tag {
+            background-color: #000;
+            color: #fff;
+            display: inline-block;
+            padding-left: 8px;
+            padding-right: 8px;
+            text-align: center
+        }
+
+        .dark-grey {
+            float: right;
+            color: #fff !important;
+            background-color: #543d3d;
+
+        }
+
+        /* main div menu*/
+        .container {
+            margin-bottom: 5 px;
+            margin-left: auto;
+            margin-right: auto;
+            padding: 0.01em 160px;
+
+        }
+
+        .menu {
+            display: block;
+        }
+
+        .padding {
+            padding-top: 32px;
+            padding-bottom: 32px
+        }
+
+        .white {
+            color: #000;
+            background-color: #e4dede;
+        }
+
+        .text-grey {
+            color: #494848;
+        }
+
+        hr {
+            height: 1px;
+            background-color: #543d3d;
+        }
+
+        /*about container and etc..*/
+        .red {
+            color: #fff;
+            background-color: #b07672
+        }
+
+        .content {
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        /* Contact */
+        .blue {
+            color: #fff;
+            background-color: #414040;
+        }
+
+        .input {
+            border: none;
+            border-bottom: 1px solid #3e3d3d;
+            width: 100%;
+            padding-bottom: 16px;
+            padding-top: 16px;
+        }
+
+        p {
+            font-size: large;
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#menu">Menu</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <header>
+        <h1 style="font-size: 4rem;" ,text-align="center">Caffeine Coffee House...</h1>
+
+    </header>
+
+    <div class="container menu padding white" id="menu">
+
+        <h1 style="font-size:xxx-large;">The Menu</h1>
+        <hr>
+        <h2><b>Espresso </b> <span class="dark-grey tag"> - RS. 80</span></h2>
+        <p class="text-grey">~A bold and rich shot of real coffee.</p>
+        <hr>
+
+        <h2><b>Americano </b> <span class="dark-grey tag"> - RS. 100</span></h2>
+        <p class="text-grey">~Espresso with added hot water for a smooth and strong black coffee.</p>
+        <hr>
+
+        <h2><b>Latte </b> <span class="dark-grey tag"> - RS. 120</span></h2>
+        <p class="text-grey">~A smooth blend of espresso and steamed milk, topped with a light layer of
+            foam. Customizable with flavored syrups.</p>
+        <hr>
+
+        <h2><b>Cappuccino </b> <span class="dark-grey tag"> - RS. 140</span></h2>
+        <p class="text-grey">~Espresso (1 shot), Steamed milk, Milk Foam</p>
+
+        <hr>
+
+        <h2><b> Mocha </b> <span class="dark-grey tag"> - RS. 160</span></h2>
+        <p class="text-grey">~Espresso combined with steamed milk and chocolate syrup, topped with
+            whipped cream and chocolate drizzle.</p>
+        <hr>
+
+        <h2><b>Iced latte </b> <span class="dark-grey tag"> - RS. 180</span></h2>
+        <p class="text-grey">~Espresso poured over cold milk and ice for a refreshing twist.</p>
+        <hr>
+
+    </div>
+
+
+    <div class="container padding red grayscale" id="about">
+        <div class="content">
+            <h1>About</h1>
+            <p>The "Caffeine House" cafe was founded in France by the Chef Mr.Joe . </p>
+            <p><strong>THE CHEF?</strong> Mr.Joe itself.</p>
+            <p>We are proud of our interiors.</p>
+            <img src="coffee2.jpg" width=78% alt="coffee shop">
+
+            <table cellpadding="8" style="width: 50%">
+                <tr>
+                    <td>Day</td>
+                    <td>Opening Hours</td>
+                </tr>
+                <tr>
+                    <td>Monday</td>
+                    <td><strong>CLOSED!!!</strong></td>
+                </tr>
+                <tr>
+                    <td>Tuesday</td>
+                    <td><i>10:00 - 21:00</i></td>
+                </tr>
+                <tr>
+                    <td>Wednesday</td>
+                    <td><i>10:00 - 21:00</i></td>
+                </tr>
+                <tr>
+                    <td>Thursday</td>
+                    <td><i>10:00 - 21:00</i></td>
+                </tr>
+                <tr>
+                    <td>Friday</td>
+                    <td><i>10:00 - 21:00</i></td>
+                </tr>
+                <tr>
+                    <td>Saturday</td>
+                    <td><i>10:00 - 21:00</i></td>
+                </tr>
+                <tr>
+                    <td>Sunday</td>
+                    <td><strong>CLOSED!!!</strong></td>
+                </tr>
+            </table>
+
+        </div>
+    </div>
+
+    <div class="container padding red grayscale blue" id="contact">
+        <div class="content">
+            <h1>Contact Us</h1>
+            <p><strong>Visit Us:</strong><br></p>
+            <p>
+                Caffeine Coffee House,
+                Shop No. 12, Aroma Plaza,
+                Station Road, Mumbai,<br>
+                Maharashtra 421503, India</p>
+
+            <p> Place or call us at 📞: 05050515-122330</p>
+
+            <p>We'd love to welcome you at our cozy corner in town! Whether you're here for a quick espresso or to relax
+                with friends over cappuccinos, our doors are always open (except Sundays&Mondays ;)). Drop by, sip, and
+                stay
+                awhile!</p>
+
+            <p><span class="tag">FYI</span> You can Reserve a table prepaid for no inconvenience further, Ask for
+                today's special </p>
+            <p>Just send us a message : </p>
+            <form target="_blank">
+                <p><input class="input " type="text" placeholder="Name" required name="Name">
+                </p>
+                <p><input class="input " type="number" placeholder="How many people?" required name="People count">
+                </p>
+                <p><input class="input " type="datetime-local" placeholder="Date and time" required name="date"
+                        value="2020-11-16T20:00"></p>
+                <p><button class="input" type="submit">SEND MESSAGE</button></p>
+
+            </form>
+
+        </div>
+    </div>
+
+    <footer style="text-align:center;padding:15px;background:black;color:white">
+        <p>&copy; 2025 Caffeine House</p>
+    </footer>
+</body>
+
+</html>
